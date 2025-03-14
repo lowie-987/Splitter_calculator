@@ -6,3 +6,5 @@ upon pressing enter, the program will calculate the required splitter configurat
 
 I have not been able to extensively verify the output with more than two outputs.
 Please report any issues you find.
+
+You can find the compiled version under the releases section
