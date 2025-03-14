@@ -216,9 +216,9 @@ def visualise_layers(splits):
     fig.set_layout_engine("tight")
     plt.show()
 
-
-inputs = input("Enter Required outputs comma separated (eg: 54,18,24) : ")
-inputs = inputs.split(",")
-inputs = np.array([int(input) for input in inputs])
-splitters = calculate_splitters(inputs)
-visualise_layers(splitters)
+while True:
+    inputs = input("Enter Required outputs comma separated (eg: 54,18,24) : ")
+    inputs = inputs.split(",")
+    inputs = np.array([int(input) for input in inputs])
+    splitters = calculate_splitters(inputs)
+    visualise_layers(splitters)
