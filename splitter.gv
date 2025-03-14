@@ -1,0 +1,3 @@
+digraph splitter {
+	hello -> world
+}
